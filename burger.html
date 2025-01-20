@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custome css -->
+    <link rel="stylesheet" href="burger.css">
+    <!-- remixicon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive Burger website</title>
+</head>
+<body>
+    <!-- header section -->
+     <header class="header" id="header">
+        <nav class="nav container">
+        <a href="#" class="nav--logo">
+            <div><img src="images/logo-burger.svg" alt="images"></div>
+            Burger
+        </a>
+        <div class="nav--menu" id="nav-menu">
+            <ul class="nav--list">
+                <li><a href="#home" class="nav--link">Home</a></li>
+                <li><a href="#recipe" class="nav--link">Recipe</a></li>
+                <li><a href="#popular" class="nav--link">Popular</a></li>
+                <li><a href="#delivery" class="nav--link">Delivery</a></li>
+                <li><a href="#contacts" class="nav--link">Contacts</a></li>
+            </ul>
+            <div class="nav--close" id="nav--close">
+                <i class="ri-close-large-line"></i>
+
+            </div>
+        </div>
+        <div class="nav--toggle" id="nav--toggle">
+            <i class="ri-apps-2-fill"></i>
+        </div>
+    </nav>
+     </header>
+     <section class="main section" id="home">
+        <div class="home__container container grid">
+            <div class="home--data">
+                <h1 class="home__title">Love Every <br>Burger</h1>
+                <p class="home__description">
+                    We serve the best burgers on the planet,
+                    paying the way for cooking and preparing hot,
+                    delicious burgers
+                </p>
+              <a href="#popular" class="button">Bite Now</a>
+              <img src="images/sticker-potatoes.svg" alt="images" class="home__sticker">
+            </div>
+            <div class="home__images">
+               
+                <img src="images/home-burger.png" alt="images" class="home__burger">
+                <img src="images/home-dish.png" alt="images" class="home__dish">
+                <img src="images/home-potato.png" alt="images" class="home__ingredient home__potato-1">
+                <img src="images/home-potato.png" alt="images" class="home__ingredient home__potato-2">
+                <img src="images/home-tomato (1).png" alt="images" class="home__ingredient home__tomato-1">
+                <img src="images/home-tomato (1).png" alt="images" class="home__ingredient home__lettuce-1">
+                <img src="images/home-lettuce.png" alt="images" class="home__ingredient home__tomato-2">
+                <img src="images/home-lettuce.png" alt="images" class="home__ingredient home__lettuce-1"></div>
+        </div>
+    </section>
+    <script src="burger.js"></script>
+</body>
+</html>
