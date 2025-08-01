@@ -1,4 +1,4 @@
 {
   "version": 2,
-  "routes": [{ "src": "/(.*)", "dest": "/burger.html" }]
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
